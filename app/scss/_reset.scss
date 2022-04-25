@@ -49,3 +49,11 @@ html{
   a{
     text-decoration: none;
   }
+  .title{
+    text-align: center;
+    text-transform: uppercase;
+    color: $text;
+  }
+  body{
+    background-color: #e4c6f0;
+  }
