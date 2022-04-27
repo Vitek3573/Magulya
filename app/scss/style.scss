@@ -325,11 +325,15 @@
 .feedback__btn {
     background-color: transparent;
     padding: 10px;
-    border: 1px solid #685fe7;
+    border: 1px solid $text;
     margin-bottom: 50px;
 }
 .feedback__btn:hover{
-    background-color: rgb(151, 247, 156);
+    transition: all 0.5s;
+    background-color: $text;
+}
+.feedback-link:hover{
+    color: rgb(252, 234, 186);
 }
 .feedback-link {
     color: $text;
@@ -352,7 +356,7 @@
 .footer{
     background-color: $text;
     height: 100px;
-    color: rgb(163, 232, 236);
+    color: rgb(255, 237, 188);
 }
 .footer__inner{
     display: flex;
