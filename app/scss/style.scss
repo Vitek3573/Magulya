@@ -42,7 +42,7 @@
 }
 .header__title{
     margin-top: auto;
-    font-size: 100px;
+    font-size: 90px;
     line-height: 110px;
     letter-spacing: 0.6px;
     font-family: "Raleway", sans-serif;
@@ -52,12 +52,12 @@
 }
 .header__subtitle{
     margin-bottom: auto;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 28px;
     letter-spacing: 0.6px;
     color: rgb(199, 155, 35);
     font-family: "Roboto Condensed", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
 }
 .about__title{
@@ -268,7 +268,12 @@
 .reviews__item-name{
     font-size: 24px;
     line-height: 29px;
-    font-weight: 800;  
+    font-family: "Raleway", sans-serif;
+    font-weight: 700; 
+}
+.reviews__item-text{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
 }
 .reviews__slider .slick-dots button{
     background-color: $text;
@@ -316,17 +321,23 @@
     margin-bottom: 70px;
     font-size: 30px;
     line-height: 36px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
 }
 .feedback__text {
     font-size: 22px;
     line-height: 26px;
     margin-bottom: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
 }
 .feedback__btn {
     background-color: transparent;
     padding: 10px;
     border: 1px solid $text;
     margin-bottom: 50px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
 }
 .feedback__btn:hover{
     transition: all 0.5s;
@@ -334,6 +345,13 @@
 }
 .feedback-link:hover{
     color: rgb(252, 234, 186);
+}
+a.feedback__phone{
+    display: block;
+    font-size: 29px;
+    text-align: center;
+    margin-top: 20px;
+    color: $text;
 }
 .feedback-link {
     color: $text;
@@ -352,6 +370,8 @@
     line-height: 26px;
     text-align: center;
     margin-bottom: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
 }
 .footer{
     background-color: $text;
